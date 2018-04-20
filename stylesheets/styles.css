@@ -1,0 +1,26 @@
+.horizontal-list {
+	list-style-type: none;
+}
+.horizontal-list li {
+	display: inline;
+	margin-right: 10px;
+}.horizontal-list li:last-of-type {
+	margin-right: 0;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+header a {
+	text-decoration: none;
+	color: #000;
+}
+
+header a:hover {
+	text-decoration: underline;
+}

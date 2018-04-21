@@ -24,3 +24,46 @@ header a {
 header a:hover {
 	text-decoration: underline;
 }
+
+#dots {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/9 dots-grey.png');
+	background-repeat: no-repeat;
+  background-position: 5px 10px;
+}
+
+#dots:hover {
+  background-image: url('../images/9 dots-black.png');
+}
+
+#bell {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0,0,0,.55);
+	background-image: url('../images/white bell.png');
+	background-repeat: no-repeat;
+  background-position: center center;
+	border-radius: 50%;
+}
+
+#bell:hover {
+	background-color: #000;
+}
+
+#avatar {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/default avatar.jpg');
+	background-repeat: no-repeat;
+  background-position: center center;
+	background-size: cover;
+	border-radius: 45%;
+}
+
+#avatar:hover {
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.55);
+}
